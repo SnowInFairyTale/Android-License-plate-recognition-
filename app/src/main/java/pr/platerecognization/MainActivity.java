@@ -129,13 +129,13 @@ public class MainActivity extends Activity implements AlertDialog.OnClickListene
         String finemapping_caffemodel  =  sdcardPath
                 + File.separator+"HorizonalFinemapping.caffemodel";
         String segmentation_prototxt =  sdcardPath
-                + File.separator+"Segmentation.prototxt";
+                + File.separator+"mininet_ssd_v1.prototxt";
         String segmentation_caffemodel =  sdcardPath
-                + File.separator+"Segmentation.caffemodel";
+                + File.separator+"mininet_ssd_v1.caffemodel";
         String character_prototxt =  sdcardPath
-                + File.separator+"CharacterRecognization.prototxt";
+                + File.separator+"refinenet.prototxt";
         String character_caffemodel=  sdcardPath
-                + File.separator+"CharacterRecognization.caffemodel";
+                + File.separator+"refinenet.caffemodel";
         String segmentationfree_prototxt =  sdcardPath
                 + File.separator+"SegmenationFree-Inception.prototxt";
         String segmentationfree_caffemodel=  sdcardPath
